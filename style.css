@@ -1,0 +1,248 @@
+.header{
+    font-size: 28px;
+    font-weight: 900;
+    background-color: #1F2937;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-left: 20px;
+
+}
+.header-links{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+.big{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+
+}
+
+.massive{
+    background-image: url(frut.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+
+}
+
+.header-links a{
+    color: gray;
+    text-decoration: none;
+
+}
+.inspo {
+    background-color: #e0e0e0;  
+    padding: 20px;  
+    margin: 20px auto 20px 150px;           
+
+    width: 80%;                 
+    border-radius: 8px;         
+    font-family: Arial, sans-serif;
+    font-style: italic;         
+    text-align: center;         
+  }
+  
+  .main {
+    margin-bottom: 10px;        
+    font-size: 1.2rem;          
+    color: #333;   
+    flex: 1;             
+  }
+  
+  .thing {
+    font-weight: bold;          
+    font-size: 1rem;
+    color: #555;                
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+  }
+  
+
+.intro{
+    font-weight: 900;
+    background-color: #1F2937;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.head{
+    font-size: 46px;
+}
+
+.descreption{
+    width: 600px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+.button{
+    width: 100px;
+}
+
+.frutiger{
+    width: 600px;
+    height: 300px;
+    padding-bottom: 26px;
+}
+
+
+.text{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3f3e3e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+  .clickable-image {
+    width: 300px; 
+    height: 200px; 
+    border: 2px solid rgb(177, 171, 171);
+    border-radius: 8px;
+
+    transition: transform 0.2s; 
+  }
+
+ 
+  .clickable-image:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+  .plug {
+    background-color: #007bff;    
+    color: white;   
+    gap: 350px;
+              
+    display: flex;                
+    align-items: center;  
+    margin: 20px auto;        
+    width: 80%;                   
+    border-radius: 8px;          
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 200px; 
+  }
+  
+  .actual-plug h3 {
+    margin: 0;                   
+    font-size: 1.5rem;            
+  }
+  
+  .actual-plug p {
+    margin: 5px 0 0 0;            
+    font-size: 1rem;              
+  }
+
+  .plug a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .plug-button {
+    background-color: #007bff;      
+    color: white;     
+    border: solid white 2px;          
+    padding: 10px 20px;         
+    border-radius: 5px;    
+    font-size: 1rem;     
+    cursor: pointer;    
+    margin-left: 30px;          
+  }
+  
+  .plug-button:hover {
+    background-color: white;    
+    color: #0056b3;                 
+  }
+
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
